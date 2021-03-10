@@ -10,6 +10,6 @@ You can first read the paper in this project, and contact with
 
 me if you have any questions about ODI-IQA dataset and SAP-net.
 
-My email address is 13021041[at]buaa[dot]edu[dot]cn.
+My email address is 13021041[at]buaa[dot]edu[dot]cn
 
 ###############################################
