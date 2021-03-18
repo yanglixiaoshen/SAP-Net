@@ -6,7 +6,8 @@ Spatial Attention-based Non-reference Perceptual Quality Prediction Network for 
 
 The dataset, pretrained model and code will be available soon.
 
-You can first read the paper in this project, and contact with 
+You can first read the paper in the arxiv:
+https://arxiv.org/abs/2103.06116, and contact with 
 
 me if you have any questions about ODI-IQA dataset and SAP-net.
 
