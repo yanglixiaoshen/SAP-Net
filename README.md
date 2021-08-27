@@ -47,6 +47,16 @@ REF: human_P0.jpg                    IMP:                     DMOS:
 If you want train and test over our ODI-IQA dataset, please download the ODIs form [ODI-IQA dataset](https://bhpan.buaa.edu.cn:443/link/FF704DD138E2C0A466AF99F5724B8310) and the corresponding important info .txt files [Info of ODI-IQA](https://bhpan.buaa.edu.cn:443/link/49AA896C49299B472047DD9D79F7FD7A).
 
 
+## Implementation
+
+The architecture of the proposed SAP-net is shown in the following figure, which contains three novel modules, i.e., WBRE, PQE and QR.
+
+<div align="center"><img width="93%" src="https://github.com/yanglixiaoshen/SAP-Net/blob/main/images/framework5.png" /></div>
+
+
+
+### Training the SAP-net
+
 
 
 
