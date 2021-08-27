@@ -77,7 +77,13 @@ Here, we load the pre-trained WBRE model (Epoch:444) directly and only train the
 
 ### Test the SAP-net
 
-After getting the pre-trained model of WBRE and PQE+QR, you can load the pre-trained model to validate the performance of IQA on the test set. We split 960 ODIs into train, validation and test set with the ratio of 0.75:0.05:0.2 and the the corresponding ID is saved in the "train_score.txt" , "validate_score.txt" and "test_score.txt". You can download it in [train_val_test_id](https://bhpan.buaa.edu.cn:443/link/17480AC574F1939CB136227220CD634D). Note that the "test_val_score.txt" is the combination of test and validation sets. (Actually, there is no need to download these files before running the test code, since they will be generated automatically when running the test code). Moreover, please note that the ids in these files corresponds to the row index from 0-959 in "ref_imp_ID.txt", which indicate the corresponding ODI names. 
+After getting the pre-trained model of WBRE and PQE+QR, you can load the pre-trained model to validate the performance of IQA on the test set. We split 960 ODIs into train, validation and test set with the ratio of 0.75:0.05:0.2 and the the corresponding ID is saved in the "train_score.txt" , "validate_score.txt" and "test_score.txt". You can download it in [train_val_test_id](https://bhpan.buaa.edu.cn:443/link/17480AC574F1939CB136227220CD634D). Note that the "test_val_score.txt" is the combination of test and validation sets. (Actually, there is no need to download these files before running the test code, since they will be generated automatically when running the test code). Moreover, please note that the ids in these files corresponds to the row index from 0-959 in "ref_imp_ID.txt", which indicate the corresponding ODI names. Just run and the test-val predicted score will be recorded in the file "predicted_score.txt":
+
+```shell
+
+python demo_test.py
+
+```
 
 
 
