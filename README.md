@@ -30,21 +30,24 @@ pip install -r requirements.txt
 ```shell
 # Dataset impairment example:
 
-REF: human_P0.jpg                    IMP:
+REF: human_P0.jpg                    IMP:                     DMOS:
 
-           |                ├── QF5_ERP_human_P0.jpg
-           ├─────Mode 1─────├── QF15_ERP_human_P0.jpg
-           |                ├── QF35_ERP_human_P0.jpg
-           |                ├── QF60_ERP_human_P0.jpg
+           |                ├── QF5_ERP_human_P0.jpg         73.7899
+           ├─────Mode 1─────├── QF15_ERP_human_P0.jpg        43.4527 
+           |                ├── QF35_ERP_human_P0.jpg        31.8013
+           |                ├── QF60_ERP_human_P0.jpg        32.6931
            |
-           |                ├── QF15_cmp_human_P0.jpg
-           ├─────Mode 2─────├── QF15_cpp_human_P0.jpg
-           |                ├── QF15_isp_human_P0.jpg
-           |                ├── QF15_ohp_human_P0.jpg
+           |                ├── QF15_cmp_human_P0.jpg        38.1707
+           ├─────Mode 2─────├── QF15_cpp_human_P0.jpg        43.3672
+           |                ├── QF15_isp_human_P0.jpg        43.7219
+           |                ├── QF15_ohp_human_P0.jpg        38.7299 
 
 ```
 
 
+
+
+https://bhpan.buaa.edu.cn:443/link/49AA896C49299B472047DD9D79F7FD7A
 
 
 
