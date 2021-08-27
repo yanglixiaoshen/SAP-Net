@@ -64,7 +64,9 @@ First, you should train the WBRE module for ODI enhancement to get the pseudo re
 python train.py
 
 ```
-Every two epoches, it will save the model parameters and the optimizer as "state.pkl.epochxxx" and "optimizer_state.pkl".
+Every two epoches, it will save the model parameters and the optimizer as "state.pkl.epochxxx" and "optimizer_state.pkl". We choose some checkpoints of WBRE in [WBRE_saved_models](https://bhpan.buaa.edu.cn:443/link/CD2D8B0865F8D686168B22DD827A3A89). Actually, we use the epoch444 for the following training and test procedure for IQA. 
+
+Second, after accomplishing the WBRE training stage, you should train
 
 
 
