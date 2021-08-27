@@ -12,6 +12,18 @@ This repository contains the official PyTorch implementation of the following pa
 > **Abstract**: *Due to the strong correlation between visual attention and perceptual quality, many methods attempt to use human saliency information for image quality assessment. Although this mechanism can get good performance, the networks require human saliency labels, which is not easily accessible for omnidirectional images (ODI). To alleviate this issue, we propose a spatial attention-based perceptual quality prediction network for non-reference quality assessment on ODIs (SAP-net). Without any human saliency labels, our network can adaptively estimate human perceptual quality on impaired ODIs through a self-attention manner, which significantly promotes the prediction performance of quality scores. Moreover, our method greatly reduces the computational complexity in quality assessment task on ODIs. Extensive experiments validate that our network outperforms 9 state-of-the-art methods for quality assessment on ODIs. The dataset and code have been available on https://github.com/yanglixiaoshen/SAP-Net.*
 
 
+## Preparation
+
+### Requriments 
+
+First, install a new conda environment \<envs\> in Linux sys (Ubuntu 18.04+); Then, activate \<envs\> and run the following command:
+```shell
+pip install -r requirements.txt
+```
+
+### Datasets
+
+IQA-ODI datasets
 
 
 
@@ -26,17 +38,33 @@ This repository contains the official PyTorch implementation of the following pa
 
 
 
-###############################################
-
-The dataset, pretrained model and code will be available soon.
 
 
 
 
 
 
-You can first read the paper in the arxiv:
-https://arxiv.org/abs/2103.06116, and contact with 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+contact with 
 
 me if you have any questions about ODI-IQA dataset and SAP-net.
 
