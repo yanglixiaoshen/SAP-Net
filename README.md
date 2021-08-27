@@ -32,15 +32,15 @@ pip install -r requirements.txt
 
 REF: human_P0.jpg                    IMP:
 
-           |                ├── QF5_ERP_human_P0
-           ├─────Mode 1─────├── QF15_ERP_human_P0
-           |                ├── QF35_ERP_human_P0
-           |                ├── QF60_ERP_human_P0
+           |                ├── QF5_ERP_human_P0.jpg
+           ├─────Mode 1─────├── QF15_ERP_human_P0.jpg
+           |                ├── QF35_ERP_human_P0.jpg
+           |                ├── QF60_ERP_human_P0.jpg
            |
-           |                ├── QF15_cmp_human_P0
-           ├─────Mode 2─────├── QF15_cpp_human_P0
-           |                ├── QF15_isp_human_P0
-           |                ├── QF15_ohp_human_P0
+           |                ├── QF15_cmp_human_P0.jpg
+           ├─────Mode 2─────├── QF15_cpp_human_P0.jpg
+           |                ├── QF15_isp_human_P0.jpg
+           |                ├── QF15_ohp_human_P0.jpg
 
 ```
 
