@@ -90,46 +90,60 @@ python demo_test.py
 You can modify any of the components in SAP-net to verify their contribution to IQA. In our project, we have accomplished several ablation experiments, such as w and w/o wavelet, w and w/o RSAB, etc. You can find all the codes in this repository, like train1.py corresponds to the MWCNN_NonDWT.py where down/up sampling substitute DWT/IWT.
 
 
+### Citation 
 
+If this repository can offer you help in your research, please cite the paper:
 
+```latex
 
+@INPROCEEDINGS{Li2021Spatial,
+  author={Yang, Li and Xu, Mai and Deng, Xin and Feng, Bo},
+  booktitle={2021 IEEE International Conference on Multimedia and Expo (ICME)}, 
+  title={Spatial Attention-Based Non-Reference Perceptual Quality Prediction Network for Omnidirectional Images}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-6},
+  doi={10.1109/ICME51207.2021.9428390}}
 
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-contact with 
-
-me if you have any questions about ODI-IQA dataset and SAP-net.
+Please enjoy it and best wishes. Plese contact with me if you have any questions about ODI-IQA dataset and SAP-net.
 
 My email address is 13021041[at]buaa[dot]edu[dot]cn
 
-###############################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
