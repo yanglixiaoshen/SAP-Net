@@ -85,9 +85,9 @@ python demo_test.py
 
 ```
 
+### Ablation experiments
 
-
-
+You can modify any of the components in SAP-net to verify their contribution to IQA. In our project, we have accomplished several ablation experiments, such as w and w/o wavelet, w and w/o RSAB, etc. You can find all the codes in this repository, like train1.py corresponds to the MWCNN_NonDWT.py where down/up sampling substitute DWT/IWT.
 
 
 
