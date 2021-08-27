@@ -11,7 +11,6 @@ This repository contains the official PyTorch implementation of the following pa
 > 
 > **Abstract**: *Due to the strong correlation between visual attention and perceptual quality, many methods attempt to use human saliency information for image quality assessment. Although this mechanism can get good performance, the networks require human saliency labels, which is not easily accessible for omnidirectional images (ODI). To alleviate this issue, we propose a spatial attention-based perceptual quality prediction network for non-reference quality assessment on ODIs (SAP-net). Without any human saliency labels, our network can adaptively estimate human perceptual quality on impaired ODIs through a self-attention manner, which significantly promotes the prediction performance of quality scores. Moreover, our method greatly reduces the computational complexity in quality assessment task on ODIs. Extensive experiments validate that our network outperforms 9 state-of-the-art methods for quality assessment on ODIs. The dataset and code have been available on https://github.com/yanglixiaoshen/SAP-Net.*
 
-
 ## Preparation
 
 ### Requriments 
@@ -23,7 +22,30 @@ pip install -r requirements.txt
 
 ### Datasets
 
-IQA-ODI datasets
+<div align="center"><img width="98%" src="https://github.com/yanglixiaoshen/SAP-Net/blob/main/images/IQAdataSET.jpg" /></div>
+
+
+**IQA-ODI**: A large-scale IQA dataset of ODIs (IQA-ODI) with 4 categories (Human, Indoor, Landscapes, Nature), containing 120 high quality reference ODIs and 960 ODIs with impairments in both JPEG compression and map projection. The impairments conducted on each ODI is shown as (Take the reference "Human_P0.jpg" as an example):
+
+```shell
+# Dataset impairment example:
+
+REF: human_P0.jpg                    IMP:
+
+           |                ├── QF5_ERP_human_P0
+           ├─────Mode 1─────├── QF15_ERP_human_P0
+           |                ├── QF35_ERP_human_P0
+           |                ├── QF60_ERP_human_P0
+           |
+           |                ├── QF15_cmp_human_P0
+           ├─────Mode 2─────├── QF15_cpp_human_P0
+           |                ├── QF15_isp_human_P0
+           |                ├── QF15_ohp_human_P0
+
+```
+
+
+
 
 
 
