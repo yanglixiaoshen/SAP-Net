@@ -57,7 +57,14 @@ The architecture of the proposed SAP-net is shown in the following figure, which
 
 ### Training the SAP-net
 
+First, you should train the WBRE module for ODI enhancement to get the pseudo refence for each impaired patch of ODI, and run the command:
 
+```shell
+
+python train.py
+
+```
+Every two epoches, it will save the model parameters and the optimizer as "state.pkl.epochxxx" and "optimizer_state.pkl".
 
 
 
