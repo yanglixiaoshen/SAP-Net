@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 ### Datasets
 
-<div align="center"><img width="87%" src="https://github.com/yanglixiaoshen/SAP-Net/blob/main/images/IQAdataSET.jpg" /></div>
+<div align="center"><img width="93%" src="https://github.com/yanglixiaoshen/SAP-Net/blob/main/images/IQAdataSET.jpg" /></div>
 
 
 **IQA-ODI**: A large-scale IQA dataset of ODIs (IQA-ODI) with 4 categories (Human, Indoor, Landscapes, Nature), containing 120 high quality reference ODIs and 960 ODIs with impairments in both JPEG compression and map projection. In our VR experiment, each ODI was viewed and scored by 20-30 subjects and we can obtain the final DMOS (0-100, higher indicates lower quality) by means of all subjects' MOS. The impairments conducted on each ODI is shown as (Take the reference "Human_P0.jpg" as an example):
@@ -44,10 +44,12 @@ REF: human_P0.jpg                    IMP:                     DMOS:
 
 ```
 
+If you want train and test over our ODI-IQA dataset, please download the ODIs form [ODI-IQA dataset](https://bhpan.buaa.edu.cn:443/link/FF704DD138E2C0A466AF99F5724B8310) and the corresponding important info .txt files [Info of ODI-IQA](https://bhpan.buaa.edu.cn:443/link/49AA896C49299B472047DD9D79F7FD7A).
 
 
 
-https://bhpan.buaa.edu.cn:443/link/49AA896C49299B472047DD9D79F7FD7A
+
+
 
 
 
