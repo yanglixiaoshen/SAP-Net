@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 ### Datasets
 
-<div align="center"><img width="98%" src="https://github.com/yanglixiaoshen/SAP-Net/blob/main/images/IQAdataSET.jpg" /></div>
+<div align="center"><img width="87%" src="https://github.com/yanglixiaoshen/SAP-Net/blob/main/images/IQAdataSET.jpg" /></div>
 
 
 **IQA-ODI**: A large-scale IQA dataset of ODIs (IQA-ODI) with 4 categories (Human, Indoor, Landscapes, Nature), containing 120 high quality reference ODIs and 960 ODIs with impairments in both JPEG compression and map projection. The impairments conducted on each ODI is shown as (Take the reference "Human_P0.jpg" as an example):
