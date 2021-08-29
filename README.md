@@ -73,7 +73,7 @@ Second, after accomplishing the WBRE training stage, you should train the PQE an
 python train3.py
 
 ```
-Here, we load the pre-trained WBRE model (Epoch:444) directly and only train the PQE and QR module for IQA. We save some checkpoints of PQE and QR in [PQE_QR_saved_models](). Actually, after the epoch 50, the performance of IQA can maintain a superior level (Validation PLCC>0.9). You can conduct any of experiments to test the performance. 
+Here, we load the pre-trained WBRE model (Epoch:444) directly and only train the PQE and QR module for IQA. We save some checkpoints of PQE and QR in [PQE_QR_saved_models](https://bhpan.buaa.edu.cn:443/link/F2FABCAC180134389FB7ACE7442A8BFC). Actually, after the epoch 50, the performance of IQA can maintain a superior level (Validation PLCC>0.9). You can conduct any of experiments to test the performance. 
 
 ### Test the SAP-net
 
