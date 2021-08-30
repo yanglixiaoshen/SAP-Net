@@ -1,4 +1,4 @@
-# SAP-net
+# Perceptual quality prediction on omnidirectional or 360 images (SAP-net)
 
 Spatial Attention-based Non-reference Perceptual Quality Prediction Network for Omnidirectional Images (Accepted by IEEE ICME 2021))
 
