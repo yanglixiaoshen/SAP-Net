@@ -25,7 +25,7 @@ pip install -r SAP-net_requirements.txt
 <div align="center"><img width="93%" src="https://github.com/yanglixiaoshen/SAP-Net/blob/main/images/IQAdataSET.jpg" /></div>
 
 
-**IQA-ODI**: A large-scale IQA dataset of ODIs (IQA-ODI) with 4 categories (Human, Indoor, Landscapes, Nature), containing 120 high quality reference ODIs and 960 ODIs with impairments in both JPEG compression and map projection. In our VR experiment, each ODI was viewed and scored by 20-30 subjects and we can obtain the final DMOS (0-100, higher indicates lower quality) by means of all subjects' MOS. The impairments conducted on each ODI is shown as (Take the reference "Human_P0.jpg" as an example):
+**IQA-ODI**: A large-scale IQA dataset of ODIs (IQA-ODI) with 4 categories (Human, Indoor, Landscapes, Nature), containing 120 high quality reference ODIs and 960 ODIs with impairments in both JPEG compression and map projection. In our VR experiment, each ODI was viewed and scored by 20-30 subjects and we can obtain the final DMOS (0-100, higher indicates lower quality) by means of all subjects' MOS [mos_all_subjects_ODIs](https://www.dropbox.com/scl/fi/otx3hx53s8hhut8koirfx/all_sub_dmos.xlsx?dl=0&rlkey=fv0swatw156s95pd79p9e91ha) and the corresponding ODI name [name_all_ODIs](https://www.dropbox.com/scl/fi/st06u6phzdmeku1hza7e4/session_test_all.xlsx?dl=0&rlkey=0vt23st2vn8o8hi9jkvzju72l). The impairments conducted on each ODI is shown as (Take the reference "Human_P0.jpg" as an example):
 
 ```shell
 # Dataset impairment example:
