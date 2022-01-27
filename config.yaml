@@ -1,0 +1,40 @@
+ ###################### Base Settings######################
+test_during_training: True
+
+### database ###
+yl360Dataset:
+  impID_pth: /home2/yangli/iqa360/IQA_360/IQA_LOG/ORI_DMOS/Imp_ID.txt
+  refimpID_pth: /home2/yangli/iqa360/IQA_360/IQA_LOG/ORI_DMOS/ref_imp_ID.txt
+  img_ref_IMG_pth: /home2/yangli/iqa360/IQA_360/all_ref_test_img
+  res_img_ref_IMG_pth: /home2/yangli/iqa360/IQA_360/all_ref_test_img_resize
+  impDMOS: /home2/yangli/iqa360/IQA_360/IQA_LOG/ORI_DMOS/Imp_DMOS.txt
+  impDMOS_reg: /home2/yangli/iqa360/IQA_360/IQA_LOG/ORI_DMOS/Imp_DMOS_reg.txt
+
+yl360Dataset1:
+  impID_pth: /home/yl/IQA_360/IQA_LOG/ORI_DMOS/Imp_ID.txt
+  refimpID_pth: /home/yl/IQA_360/IQA_LOG/ORI_DMOS/ref_imp_ID.txt
+  img_ref_IMG_pth: /home/yl/IQA_360/all_ref_test_img
+  res_img_ref_IMG_pth: /home/yl/IQA_360/all_ref_test_img_resize
+  impDMOS: /home/yl/IQA_360/IQA_LOG/ORI_DMOS/Imp_DMOS.txt
+  impDMOS_reg: /home/yl/IQA_360/IQA_LOG/ORI_DMOS/Imp_DMOS_reg.txt
+
+imp_num : 960
+patch_size: 256
+stride: 32
+batch_size: 20
+
+train_ratio: 0.75
+val_ratio: 0.05
+test_ratio: 0.2
+
+### model ###
+CNNIQA:
+  kernel_size: 7
+  n_kernels: 50
+  n1_nodes: 800
+  n2_nodes: 800
+MWCNN:
+  lr: 0.001
+
+ResCBAMIQA:
+  lr: 5e-4
