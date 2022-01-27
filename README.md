@@ -44,7 +44,7 @@ REF: human_P0.jpg                    IMP:                     DMOS:
 
 ```
 
-If you want train and test over our ODI-IQA dataset, please download the ODIs form [ODI-IQA dataset](https://www.dropbox.com/s/agmu8ljwal6a25e/all_ref_test_img.zip?dl=0) and the corresponding important info .txt files [Info of ODI-IQA](https://www.dropbox.com/sh/2s7x4ddut0i1ymm/AAC2MyM2TlyNLCpzFiHWpFnZa?dl=0).
+If you want train and test over our ODI-IQA dataset, please download the ODIs from [ODI-IQA dataset](https://www.dropbox.com/s/agmu8ljwal6a25e/all_ref_test_img.zip?dl=0) and the corresponding important info .txt files [Info of ODI-IQA](https://www.dropbox.com/sh/2s7x4ddut0i1ymm/AAC2MyM2TlyNLCpzFiHWpFnZa?dl=0).
 
 
 ## Implementation
